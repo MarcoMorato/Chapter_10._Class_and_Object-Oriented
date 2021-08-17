@@ -20,8 +20,9 @@ def make_list():
 
 def display_list(list):
     for x in list:
-        print(x)
-
+        print(x.get_manufact())
+        print(x.get_model())
+        print(x.get_price())
 
 
 main()
